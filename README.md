@@ -16,3 +16,8 @@ Generate custom synthetic datasets for ML & data science from simple YAML schema
 git clone https://github.com/OtKwesi/SyntheticDataGen_project.git
 cd SyntheticDataGen_project
 python -m pip install -e .
+
+from syntheticgen import generate_synthetic_data
+
+df = generate_synthetic_data("schemas/example.yaml", n_rows=50, save_csv=True, filename="sample.csv")
+print(df.head())
