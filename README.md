@@ -1,34 +1,3 @@
-# SyntheticDataGen_project
-![Demo](demo.gif) <!-- Replace with actual GIF path or remove if not ready -->
-
-## Badges
-| CI Status | License | Python Version |
-|-----------|---------|----------------|
-| [![CI](https://github.com/OtKwesi/SyntheticDataGen_project/actions/workflows/ci.yml/badge.svg)](https://github.com/OtKwesi/SyntheticDataGen_project/actions) | [![License](https://img.shields.io/github/license/OtKwesi/SyntheticDataGen_project)](https://github.com/OtKwesi/SyntheticDataGen_project/blob/main/LICENSE) | [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/) |
-
-SyntheticGen is a plug-and-play synthetic data generator for machine learning engineers, data scientists, and analysts. It allows you to define your dataset schema in YAML and generate realistic synthetic datasets in CSV or Pandas DataFrame format.
-
-The goal is to provide an open-source alternative to Kaggle datasets by letting you generate your own customizable data.
-
-✨ **Features**
-- Define datasets via simple YAML schemas.
-- Generate CSV files or directly return Pandas DataFrames.
-- Command-line interface (CLI) and Python API.
-- Flexible: works for any project domain (ML, data analytics, data science).
-- MIT Licensed — free to use, modify, and share.
-- CI/CD ready with GitHub Actions and unit tests.
-
-📦 **Installation - Quickstart (30 seconds)**
-```bash
-# Step 1: Clone the repository
-git clone https://github.com/OtKwesi/SyntheticDataGen_project.git
-cd SyntheticDataGen_project
-
-# Step 2: Install dependencies
-pip install -r requirements.txt
-
-# Step 3: Install the package locally
-pip install .
 
 # data-generation
 # SyntheticGen
